@@ -19,6 +19,19 @@
 		C2D48C2A1853B595005B0BFC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D48C121853B595005B0BFC /* UIKit.framework */; };
 		C2D48C321853B595005B0BFC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2D48C301853B595005B0BFC /* InfoPlist.strings */; };
 		C2D48C341853B595005B0BFC /* Event_MockupTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D48C331853B595005B0BFC /* Event_MockupTests.m */; };
+		C2D48C4A185511E5005B0BFC /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D48C49185511E5005B0BFC /* SWRevealViewController.m */; };
+		C2D48C4E18551498005B0BFC /* MyEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D48C4C18551498005B0BFC /* MyEventViewController.m */; };
+		C2D48C4F18551498005B0BFC /* MyEventViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2D48C4D18551498005B0BFC /* MyEventViewController.xib */; };
+		C2D48C8E185515D7005B0BFC /* FriendEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D48C8C185515D7005B0BFC /* FriendEventViewController.m */; };
+		C2D48C8F185515D7005B0BFC /* FriendEventViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2D48C8D185515D7005B0BFC /* FriendEventViewController.xib */; };
+		C2D48C94185516AD005B0BFC /* RearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D48C92185516AD005B0BFC /* RearViewController.m */; };
+		C2D48C95185516AD005B0BFC /* RearViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2D48C93185516AD005B0BFC /* RearViewController.xib */; };
+		C2D48C9918557034005B0BFC /* reveal-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C2D48C9718557034005B0BFC /* reveal-icon.png */; };
+		C2D48C9A18557034005B0BFC /* reveal-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2D48C9818557034005B0BFC /* reveal-icon@2x.png */; };
+		C2D48C9C185574B8005B0BFC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D48C9B185574B7005B0BFC /* MapKit.framework */; };
+		C2D48C9E185574C9005B0BFC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D48C9D185574C9005B0BFC /* CoreLocation.framework */; };
+		C2D48CA2185592D7005B0BFC /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D48CA0185592D7005B0BFC /* SettingsViewController.m */; };
+		C2D48CA3185592D7005B0BFC /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2D48CA1185592D7005B0BFC /* SettingsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,12 +55,30 @@
 		C2D48C1C1853B595005B0BFC /* Event Mockup-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Event Mockup-Prefix.pch"; sourceTree = "<group>"; };
 		C2D48C1D1853B595005B0BFC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C2D48C1E1853B595005B0BFC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C2D48C201853B595005B0BFC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C2D48C201853B595005B0BFC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "Event Mockup/Images.xcassets"; sourceTree = "<group>"; };
 		C2D48C261853B595005B0BFC /* Event MockupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Event MockupTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2D48C271853B595005B0BFC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C2D48C2F1853B595005B0BFC /* Event MockupTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Event MockupTests-Info.plist"; sourceTree = "<group>"; };
 		C2D48C311853B595005B0BFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C2D48C331853B595005B0BFC /* Event_MockupTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Event_MockupTests.m; sourceTree = "<group>"; };
+		C2D48C48185511E5005B0BFC /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		C2D48C49185511E5005B0BFC /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		C2D48C4B18551498005B0BFC /* MyEventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyEventViewController.h; path = Classes/MyEventViewController.h; sourceTree = "<group>"; };
+		C2D48C4C18551498005B0BFC /* MyEventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyEventViewController.m; path = Classes/MyEventViewController.m; sourceTree = "<group>"; };
+		C2D48C4D18551498005B0BFC /* MyEventViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MyEventViewController.xib; path = Classes/MyEventViewController.xib; sourceTree = "<group>"; };
+		C2D48C8B185515D7005B0BFC /* FriendEventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FriendEventViewController.h; path = Classes/FriendEventViewController.h; sourceTree = "<group>"; };
+		C2D48C8C185515D7005B0BFC /* FriendEventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FriendEventViewController.m; path = Classes/FriendEventViewController.m; sourceTree = "<group>"; };
+		C2D48C8D185515D7005B0BFC /* FriendEventViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FriendEventViewController.xib; path = Classes/FriendEventViewController.xib; sourceTree = "<group>"; };
+		C2D48C91185516AD005B0BFC /* RearViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RearViewController.h; path = Classes/RearViewController.h; sourceTree = SOURCE_ROOT; };
+		C2D48C92185516AD005B0BFC /* RearViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RearViewController.m; path = Classes/RearViewController.m; sourceTree = SOURCE_ROOT; };
+		C2D48C93185516AD005B0BFC /* RearViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RearViewController.xib; path = Classes/RearViewController.xib; sourceTree = SOURCE_ROOT; };
+		C2D48C9718557034005B0BFC /* reveal-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reveal-icon.png"; sourceTree = "<group>"; };
+		C2D48C9818557034005B0BFC /* reveal-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reveal-icon@2x.png"; sourceTree = "<group>"; };
+		C2D48C9B185574B7005B0BFC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		C2D48C9D185574C9005B0BFC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C2D48C9F185592D7005B0BFC /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsViewController.h; path = Classes/SettingsViewController.h; sourceTree = "<group>"; };
+		C2D48CA0185592D7005B0BFC /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsViewController.m; path = Classes/SettingsViewController.m; sourceTree = "<group>"; };
+		C2D48CA1185592D7005B0BFC /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SettingsViewController.xib; path = Classes/SettingsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +86,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2D48C9E185574C9005B0BFC /* CoreLocation.framework in Frameworks */,
+				C2D48C9C185574B8005B0BFC /* MapKit.framework in Frameworks */,
 				C2D48C111853B595005B0BFC /* CoreGraphics.framework in Frameworks */,
 				C2D48C131853B595005B0BFC /* UIKit.framework in Frameworks */,
 				C2D48C0F1853B595005B0BFC /* Foundation.framework in Frameworks */,
@@ -78,6 +111,8 @@
 			isa = PBXGroup;
 			children = (
 				C2D48C141853B595005B0BFC /* Event Mockup */,
+				C2D48C201853B595005B0BFC /* Images.xcassets */,
+				C2D48C47185511BC005B0BFC /* SWRevealViewController */,
 				C2D48C2D1853B595005B0BFC /* Event MockupTests */,
 				C2D48C0D1853B595005B0BFC /* Frameworks */,
 				C2D48C0C1853B595005B0BFC /* Products */,
@@ -96,6 +131,8 @@
 		C2D48C0D1853B595005B0BFC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C2D48C9D185574C9005B0BFC /* CoreLocation.framework */,
+				C2D48C9B185574B7005B0BFC /* MapKit.framework */,
 				C2D48C0E1853B595005B0BFC /* Foundation.framework */,
 				C2D48C101853B595005B0BFC /* CoreGraphics.framework */,
 				C2D48C121853B595005B0BFC /* UIKit.framework */,
@@ -109,7 +146,10 @@
 			children = (
 				C2D48C1D1853B595005B0BFC /* AppDelegate.h */,
 				C2D48C1E1853B595005B0BFC /* AppDelegate.m */,
-				C2D48C201853B595005B0BFC /* Images.xcassets */,
+				C2D48C9018551677005B0BFC /* RearViewController  */,
+				C2D48C421853CAB0005B0BFC /* ViewControllers (Front) */,
+				C2D48C431853CAC9005B0BFC /* Views */,
+				C2D48C9618557017005B0BFC /* Resources */,
 				C2D48C151853B595005B0BFC /* Supporting Files */,
 			);
 			path = "Event Mockup";
@@ -142,6 +182,59 @@
 				C2D48C301853B595005B0BFC /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2D48C421853CAB0005B0BFC /* ViewControllers (Front) */ = {
+			isa = PBXGroup;
+			children = (
+				C2D48C4B18551498005B0BFC /* MyEventViewController.h */,
+				C2D48C4C18551498005B0BFC /* MyEventViewController.m */,
+				C2D48C8B185515D7005B0BFC /* FriendEventViewController.h */,
+				C2D48C8C185515D7005B0BFC /* FriendEventViewController.m */,
+				C2D48C9F185592D7005B0BFC /* SettingsViewController.h */,
+				C2D48CA0185592D7005B0BFC /* SettingsViewController.m */,
+			);
+			name = "ViewControllers (Front)";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		C2D48C431853CAC9005B0BFC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C2D48C93185516AD005B0BFC /* RearViewController.xib */,
+				C2D48C4D18551498005B0BFC /* MyEventViewController.xib */,
+				C2D48C8D185515D7005B0BFC /* FriendEventViewController.xib */,
+				C2D48CA1185592D7005B0BFC /* SettingsViewController.xib */,
+			);
+			name = Views;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		C2D48C47185511BC005B0BFC /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C2D48C48185511E5005B0BFC /* SWRevealViewController.h */,
+				C2D48C49185511E5005B0BFC /* SWRevealViewController.m */,
+			);
+			name = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		C2D48C9018551677005B0BFC /* RearViewController  */ = {
+			isa = PBXGroup;
+			children = (
+				C2D48C91185516AD005B0BFC /* RearViewController.h */,
+				C2D48C92185516AD005B0BFC /* RearViewController.m */,
+			);
+			name = "RearViewController ";
+			sourceTree = "<group>";
+		};
+		C2D48C9618557017005B0BFC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C2D48C9718557034005B0BFC /* reveal-icon.png */,
+				C2D48C9818557034005B0BFC /* reveal-icon@2x.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,7 +313,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2D48C191853B595005B0BFC /* InfoPlist.strings in Resources */,
+				C2D48C4F18551498005B0BFC /* MyEventViewController.xib in Resources */,
+				C2D48C9A18557034005B0BFC /* reveal-icon@2x.png in Resources */,
+				C2D48CA3185592D7005B0BFC /* SettingsViewController.xib in Resources */,
+				C2D48C95185516AD005B0BFC /* RearViewController.xib in Resources */,
 				C2D48C211853B595005B0BFC /* Images.xcassets in Resources */,
+				C2D48C8F185515D7005B0BFC /* FriendEventViewController.xib in Resources */,
+				C2D48C9918557034005B0BFC /* reveal-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +340,11 @@
 			files = (
 				C2D48C1F1853B595005B0BFC /* AppDelegate.m in Sources */,
 				C2D48C1B1853B595005B0BFC /* main.m in Sources */,
+				C2D48C8E185515D7005B0BFC /* FriendEventViewController.m in Sources */,
+				C2D48C4A185511E5005B0BFC /* SWRevealViewController.m in Sources */,
+				C2D48C94185516AD005B0BFC /* RearViewController.m in Sources */,
+				C2D48C4E18551498005B0BFC /* MyEventViewController.m in Sources */,
+				C2D48CA2185592D7005B0BFC /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +545,7 @@
 				C2D48C391853B595005B0BFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2D48C3A1853B595005B0BFC /* Build configuration list for PBXNativeTarget "Event MockupTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +554,7 @@
 				C2D48C3C1853B595005B0BFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
